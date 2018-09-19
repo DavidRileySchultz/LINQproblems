@@ -21,14 +21,14 @@ namespace LINQProblems
         }
         public void NoMoreDuplicates()
         {
-
-
             //Using LINQ, write a function that takes in a list of strings and returns a copy of the list without duplicates.
 
-
-
             List<string> names = new List<string>() { "Mike", "Dan", "Scott", "Nick", "Mike" };
-
+            var removeDuplicate = names.Distinct();
+            foreach(var name in removeDuplicate)
+            {
+                Console.WriteLine(name);
+            }
         }
 
             ////Using LINQ, write a function that calculates the class grade average after dropping the lowest grade for each student.

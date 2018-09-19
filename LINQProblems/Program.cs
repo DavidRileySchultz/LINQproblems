@@ -12,6 +12,7 @@ namespace LINQProblems
         {
             LINQ linq = new LINQ();
             linq.FindWordsWithTH();
+            linq.NoMoreDuplicates();
             Console.ReadKey();
         }
     }
