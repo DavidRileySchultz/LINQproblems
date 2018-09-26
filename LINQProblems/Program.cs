@@ -13,6 +13,7 @@ namespace LINQProblems
             LINQ linq = new LINQ();
             linq.FindWordsWithTH();
             linq.NoMoreDuplicates();
+            linq.CalculateAverages();
             Console.ReadKey();
         }
     }
